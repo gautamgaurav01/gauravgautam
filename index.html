@@ -288,22 +288,23 @@
       />
       <div class="input-box">
         
-        <input type="text" placeholder="Full Name" />
-        <input type="email" placeholder="Email Address" />
+        <input type="text" name="Name" placeholder="Full Name" />
+        <input type="email" name="Email" placeholder="Email Address" />
       </div>
       <div class="input-box">
-        <input type="tel" placeholder="Mobile Number" pattern="[0-9]*" />
-        <input type="text" placeholder="Email Subject" />
+        <input type="tel" name="Mobile Number" placeholder="Mobile Number" pattern="[0-9]*" />
+        <input type="text" name="Email Subject" placeholder="Email Subject" />
       </div>
+      <input type="hidden" name="redirect" value="./Thank you/thankyou.html" />
       <textarea
         name=""
         id=""
         cols="30"
         rows="10"
+        name="Message"
         placeholder="Your Message"
       ></textarea>
-      
-      <input type="submit" value="Send Message" class="btn" />
+      <button class="btn">Send Message</button>
         </form>
       </div>
     </div>

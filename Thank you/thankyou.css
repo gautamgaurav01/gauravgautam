@@ -1,0 +1,51 @@
+body {
+    background-color: #1f242d;
+    color: #ffffff;
+  font-family: "Poppins", serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background:  #1f242d;
+    padding: 20px;
+    border-radius: 10px;
+}
+.icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #0ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+}
+.icon::before {
+    content: '✔';
+    font-size: 40px;
+    color: #0ef;
+}
+.success {
+    font-size: 24px;
+    color: #0ef;
+    font-weight: bold;
+}
+.message {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #cccccc;
+}
+.back a{
+    display: inline-block;
+    margin-top: 15px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.back:hover a{
+    color: #0ef;
+    text-decoration: underline;
+}
