@@ -52,7 +52,7 @@
 
 @media (max-width: 769px) {
   .header nav ul {
-    gap: 10px;
+    gap: 2px;
   }
 
   #hero {
