@@ -17,6 +17,13 @@
       referrerpolicy="no-referrer"
     />
     <title>Gaurav Gautam</title>
+    <script>
+      function toggleMenu() {
+          const nav = document.querySelector('.header nav');
+          nav.classList.toggle('active');
+      }
+      </script>
+      
   </head>
   <body>
     <div class="header">
@@ -31,6 +38,7 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
     </div>
     <br />
     <div id="hero">

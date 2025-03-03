@@ -98,6 +98,10 @@ a {
   transform: scale(1.1);
 }
 
+.header .menu-toggle {
+  display: none;
+}
+
 #hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
