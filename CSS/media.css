@@ -89,6 +89,9 @@
   }
 }
 @media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
   .header {
     display: flex;
     justify-content: center;
