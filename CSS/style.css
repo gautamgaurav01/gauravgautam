@@ -6,11 +6,14 @@
 }
 
 html, body {
+  
+  display: flex;
+  flex-direction: column;
   scroll-behavior: smooth;
   font-family: "Poppins", serif;
   background-color: #1f242d;
   color: #e5e7eb;
-  
+  overflow-x: hidden;
 }
 
 
@@ -224,7 +227,7 @@ a {
   display: block;
   margin: 35px 0;
   background-color: #1f243a;
-  padding: 25px;
+  padding: 10px;
   border-radius: 12px;
   border-left: 4px solid #0ef;
 }
@@ -237,7 +240,6 @@ a {
 #about .name p strong {
   color: #0ef;
   margin-right: 8px;
-  font-weight: 600;
 }
 
 
@@ -337,7 +339,7 @@ a {
 #services .skills {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
+  gap: 25px;
   margin-top: 20px;
 }
 
@@ -388,7 +390,7 @@ a {
 }
 
 #services .skills .skill:hover {
-  transform: scale(1.05) translateY(-10px);
+  transform: scale(1.05) translateY(-5px);
   box-shadow: 0 0 10px #0ef;
 }
 
@@ -449,7 +451,7 @@ a {
   align-items: center;
   background-color: #1f243a;
   padding: 20px;
-  gap: 20px;
+  gap: 25px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -489,7 +491,7 @@ a {
 }
 
 #blog .part .part1:hover {
-  transform: scale(1.01) translateY(-10px);
+  transform: scale(1.01) translateY(-5px);
   box-shadow: 0 0 10px #0ef;
 }
 
