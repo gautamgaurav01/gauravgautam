@@ -18,16 +18,10 @@
     <title>Gaurav Gautam</title>
     <script>
       function toggleMenu() {
-          const nav = document.querySelector('.header nav');
-          nav.classList.toggle('active');
+        const nav = document.querySelector(".header nav");
+        nav.classList.toggle("active");
       }
-
-
-
-
-
-      </script>
-      
+    </script>
   </head>
   <body>
     <div class="header">
@@ -318,20 +312,27 @@
             value="f17eb466-4429-46f9-a3b3-72318f97fd50"
           />
           <div class="input-box">
-            <input type="text" name="Name" placeholder="Full Name" required/>
-            <input type="email" name="Email" placeholder="Email Address" required/>
+            <input type="text" name="Name" placeholder="Full Name" required />
+            <input
+              type="email"
+              name="Email"
+              placeholder="Email Address"
+              required
+            />
           </div>
           <div class="input-box">
             <input
               type="tel"
               name="Mobile Number"
               placeholder="Mobile Number"
-              pattern="[0-9]*" required
+              pattern="[0-9]*"
+              required
             />
             <input
               type="text"
               name="Email Subject"
-              placeholder="Email Subject" required
+              placeholder="Email Subject"
+              required
             />
           </div>
           <input
@@ -345,7 +346,8 @@
             cols="30"
             rows="10"
             name="Message"
-            placeholder="Your Message" required 
+            placeholder="Your Message"
+            required
           ></textarea>
           <button class="btn">Send Message</button>
         </form>
