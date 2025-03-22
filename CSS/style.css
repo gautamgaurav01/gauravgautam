@@ -711,8 +711,9 @@ footer .footer-content .footer-social {
 }
 
 footer .footer-content .footer-social a i {
-  font-size: 30px;
-  color: #0ef;
+  font-size: 30px;background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   border: 2px solid #0ed;
   border-radius: 50%;
   transition: 0.5s;
@@ -722,7 +723,9 @@ footer .footer-content .footer-social a i {
 footer .footer-content .footer-social a i:hover {
   transform: scale(1.1);
   box-shadow: 0 0 10px #0ed;
-  color: #0ed;
+  background: linear-gradient(to left, #0ef, #0ee, #0ed, #0ec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   border: 2px solid #0ef;
 }
 
