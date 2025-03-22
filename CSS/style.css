@@ -130,7 +130,7 @@ a {
 }
 
 #hero .text span {
-  background: linear-gradient(to right, #0ef, #0ee, #0ed,#0ec);
+  background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -161,18 +161,20 @@ a {
   transform: scale(1.1);
   margin-top: -3px;
   box-shadow: 0 0 12px #0ed;
-  background: linear-gradient(to right, #0ef, #0ee, #0ed,#0ec);
+  background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-#hero .text .social_links a i {background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
+#hero .text .social_links a i {
+  background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 30px;
 }
 
-#hero .text .social_links a:hover i {background: linear-gradient(to left, #0ef, #0ee, #0ed,#0ec);
+#hero .text .social_links a:hover i {
+  background: linear-gradient(to left, #0ef, #0ee, #0ed, #0ec);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -224,12 +226,13 @@ a {
   position: absolute;
   width: 70px;
   height: 4px;
-  background: linear-gradient(to right, #0ef,#0ee,#0ed,#0ec);
+  background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
   bottom: -10px;
   left: 0;
 }
 
-#about .text span {background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
+#about .text span {
+  background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -248,7 +251,8 @@ a {
   color: #e5e7eb;
 }
 
-#about .name p strong {background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
+#about .name p strong {
+  background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-right: 8px;
@@ -287,7 +291,7 @@ a {
 
 #about .buttons .btn_hire,
 #about .buttons .btn_cv {
-  background: linear-gradient(to right, #0ef,#0ee,#0ed,#0ec);
+  background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
   border: 2px solid #0ef;
   color: #1f242d;
   transition: all 0.5s ease;
@@ -336,13 +340,14 @@ a {
   position: absolute;
   width: 80px;
   height: 4px;
-  background: linear-gradient(to right, #0ef,#0ee,#0ed,#0ec);
+  background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
   bottom: -15px;
   left: 50%;
   transform: translateX(-50%);
 }
 
-#services h1 span {background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
+#services h1 span {
+  background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -437,13 +442,14 @@ a {
   position: absolute;
   width: 80px;
   height: 4px;
-  background: linear-gradient(to right, #0ef,#0ee,#0ed,#0ec);
+  background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
   bottom: -15px;
   left: 50%;
   transform: translateX(-50%);
 }
 
-#blog h1 span {background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
+#blog h1 span {
+  background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -512,7 +518,7 @@ a {
 }
 
 #blog .part .part1 h2 {
-  background: linear-gradient(to right, #0ef,#0ee,#0ed,#0ec);
+  background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
   width: 100%;
   max-width: 240px;
   text-align: center;
@@ -543,7 +549,7 @@ a {
 }
 
 #blog .part .part1 h3 {
-  background: linear-gradient(to right, #0ef,#0ee,#0ed,#0ec);
+  background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
   width: 100%;
   max-width: 150px;
   text-align: center;
@@ -593,13 +599,14 @@ a {
   position: absolute;
   width: 80px;
   height: 4px;
-  background: linear-gradient(to right, #0ef,#0ee,#0ed,#0ec);
+  background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
   bottom: -15px;
   left: 50%;
   transform: translateX(-50%);
 }
 
-#contact h1 span {background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
+#contact h1 span {
+  background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -644,7 +651,7 @@ a {
 
 #contact .contact_all form .btn {
   cursor: pointer;
-  background: linear-gradient(to right, #0ef,#0ee,#0ed,#0ec);
+  background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
   padding: 15px;
   font-size: 16px;
   font-weight: 600;
@@ -986,4 +993,3 @@ footer .footer-content .contact2 p {
     font-size: 32px;
   }
 }
-
