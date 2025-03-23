@@ -711,7 +711,8 @@ footer .footer-content .footer-social {
 }
 
 footer .footer-content .footer-social a i {
-  font-size: 30px;background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
+  font-size: 30px;
+  background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border: 2px solid #0ed;
@@ -872,6 +873,7 @@ footer .footer-content .contact2 p {
     display: flex;
     flex-direction: column;
   }
+
   #hero .text .social_links {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -919,6 +921,7 @@ footer .footer-content .contact2 p {
     padding-top: 150px;
     margin-top: -50px;
   }
+
   #hero .text {
     margin-top: 20px;
   }
@@ -984,6 +987,7 @@ footer .footer-content .contact2 p {
     grid-template-columns: repeat(4, 1fr);
     margin-left: 10px;
   }
+
   #about {
     display: flex;
     flex-direction: column-reverse;
