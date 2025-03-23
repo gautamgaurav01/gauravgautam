@@ -131,6 +131,7 @@ a {
 
 #hero .text span {
   background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -162,12 +163,14 @@ a {
   margin-top: -3px;
   box-shadow: 0 0 12px #0ed;
   background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 #hero .text .social_links a i {
   background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 30px;
@@ -175,6 +178,7 @@ a {
 
 #hero .text .social_links a:hover i {
   background: linear-gradient(to left, #0ef, #0ee, #0ed, #0ec);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -233,6 +237,7 @@ a {
 
 #about .text span {
   background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -253,6 +258,7 @@ a {
 
 #about .name p strong {
   background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-right: 8px;
@@ -348,6 +354,7 @@ a {
 
 #services h1 span {
   background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -450,6 +457,7 @@ a {
 
 #blog h1 span {
   background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -607,6 +615,7 @@ a {
 
 #contact h1 span {
   background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -713,6 +722,7 @@ footer .footer-content .footer-social {
 footer .footer-content .footer-social a i {
   font-size: 30px;
   background: linear-gradient(to right, #0ef, #0ee, #0ed, #0ec);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border: 2px solid #0ed;
@@ -725,9 +735,9 @@ footer .footer-content .footer-social a i:hover {
   transform: scale(1.1);
   box-shadow: 0 0 10px #0ed;
   background: linear-gradient(to left, #0ef, #0ee, #0ed, #0ec);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  border: 2px solid #0ef;
 }
 
 footer .footer-content .contact2 p {
